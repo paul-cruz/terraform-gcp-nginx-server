@@ -32,7 +32,7 @@ locals {
 
 ```hcl
 module "nginx_server" {
-  source            = "../"
+  source            = "paul-cruz/nginx-server/google"
   project_id        = local.project_id
   region            = local.region
   vpc_name          = local.vpc_name
